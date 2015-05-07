@@ -6,4 +6,4 @@ $:.unshift(File.expand_path('../../lib', __FILE__))
 require 'xcplugin-mingration'
 require 'xcplugin-mingration/cli'
 
-Xcplugin-mingration::CLI.start(ARGV)
+XcpluginMingration::CLI.start(ARGV)

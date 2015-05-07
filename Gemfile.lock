@@ -1,7 +1,8 @@
 PATH
   remote: .
   specs:
-    xcplugin-mingration (0.0.1)
+    xcplugin-mingration (0.1.0)
+      CFPropertyList
       colorize
       hashie
       thor
@@ -9,6 +10,7 @@ PATH
 GEM
   remote: https://rubygems.org/
   specs:
+    CFPropertyList (2.3.1)
     celluloid (0.16.0)
       timers (~> 4.0.0)
     codeclimate-test-reporter (0.4.6)

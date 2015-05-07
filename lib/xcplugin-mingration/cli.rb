@@ -1,4 +1,6 @@
 require 'thor'
+require 'colorize'
+require 'cfpropertylist'
 
 module XcpluginMingration
 
