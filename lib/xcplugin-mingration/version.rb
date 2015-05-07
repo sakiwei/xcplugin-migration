@@ -1,3 +1,3 @@
-module Xcplugin-mingration
-  VERSION = "0.0.1"
+module XcpluginMingration
+  VERSION = "0.1.0"
 end
