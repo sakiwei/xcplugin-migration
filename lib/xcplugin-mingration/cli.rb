@@ -1,6 +1,7 @@
 require 'thor'
 require 'colorize'
 require 'cfpropertylist'
+require 'Pathname'
 
 module XcpluginMingration
 
