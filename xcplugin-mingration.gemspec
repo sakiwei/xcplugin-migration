@@ -5,12 +5,12 @@ require 'xcplugin-mingration/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "xcplugin-mingration"
-  spec.version       = Xcplugin-mingration::VERSION
-  spec.authors       = ["Tung Nguyen"]
-  spec.email         = ["tongueroo@gmail.com"]
-  spec.description   = %q{TODO: Write a gem description}
-  spec.summary       = %q{TODO: Write a gem summary}
-  spec.homepage      = ""
+  spec.version       = XcpluginMingration::VERSION
+  spec.authors       = ["sakiwei"]
+  spec.email         = ["sakiwei@gmail.com"]
+  spec.description   = "Make your old Xcode plugins be available on the latest Xcode"
+  spec.summary       = "Make your old Xcode plugins be available on the latest Xcode"
+  spec.homepage      = "http://sakiwei.com"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
@@ -21,6 +21,7 @@ Gem::Specification.new do |spec|
   spec.add_dependency "thor"
   spec.add_dependency "hashie"
   spec.add_dependency "colorize"
+  spec.add_dependency "CFPropertyList"
 
   spec.add_development_dependency "bundler", "~> 1.3"
   spec.add_development_dependency "rake"
