@@ -7,6 +7,7 @@ Make your old Xcode plugins be available on the latest Xcode.
 ```shell
 $ git clone https://github.com/sakiwei/xcplugin-migration.git xcplugin-migration
 $ cd xcplugin-migration
+$ bundle
 $ rake build
 $ rake install
 ```
